@@ -31,7 +31,6 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         AudioManager.instance.Play("Music");
-        
         InvokeRepeating(nameof(MysterySpawner),25,25);
     }
 

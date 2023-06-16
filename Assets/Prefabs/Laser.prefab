@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe11b875101d4a86b8f7c19e6e9b1764, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  laserSpeed: 7
+  laserSpeed: 8
   shieldID: 0
   enemyID: 0
 --- !u!61 &-9090429948091263910

@@ -146,5 +146,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99acaaa8f0ba47e98b9c2a8add2e52d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  missileSpeed: 5.6
+  missileSpeed: 6.3
   shieldID: 0

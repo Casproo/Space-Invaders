@@ -6,7 +6,7 @@ public class Laser : MonoBehaviour
 {
     public static Laser Instance;
     
-    [SerializeField] private float laserSpeed = 1f;
+    [SerializeField] private float laserSpeed = 1.3f;
     
     private Vector3 _lastPosition;
     

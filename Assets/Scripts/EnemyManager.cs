@@ -169,12 +169,12 @@ public class EnemyManager : MonoBehaviour
             CancelInvoke(nameof(ShootMissile));
             if (EnemySpeed > 0)
             {
-                EnemySpeed += 7f;
+                EnemySpeed += 3.8f;
             }
 
             if (EnemySpeed < 0)
             {
-                EnemySpeed -= 10f;
+                EnemySpeed -= 3.8f;
             }
         }
 
