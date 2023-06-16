@@ -156,7 +156,6 @@ public class EnemyManager : MonoBehaviour
             if (pooledEnemies[i].GetComponent<Enemy>().GetInstanceID() == Laser.Instance.enemyID)
             {
                 AudioManager.instance.Play("InvaderKilled");
-                pooledEnemies[i].GetComponent<Enemy>().enabled = false;
                 pooledEnemies.RemoveAt(i);
                 if (missileSpawnRate >= 2)
                 {
